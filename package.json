@@ -1,0 +1,32 @@
+{
+  "name": "gulp-json-extender",
+  "version": "0.0.1",
+  "description": "A gulp plugin to extend JSON files",
+  "license": "MIT",
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "json",
+    "extend",
+    "merge"
+  ],
+  "homepage": "https://github.com/neonmori/gulp-json-extender",
+  "main": "index.js",
+  "author": "neonmori <kirkgit@gmail.com>",
+  "repository": "neonmori/gulp-json-extender",
+  "bugs": {
+    "url": "https://github.com/neonmori/gulp-json-extender/issues",
+    "email": "kirkgit@gmail.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "deepmerge": "~0.2.7",
+    "detect-indent": "^2.0.0",
+    "gulp-util": "~3.0.0",
+    "js-beautify": "~1.5.4",
+    "mout": "^0.11.1",
+    "through2": "~0.5.0"
+  }
+}
